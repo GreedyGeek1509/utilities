@@ -1,0 +1,2 @@
+symmetric encyrption : gpg -c <file>
+Decyption : gpg --passphrase <PASSPHRASE> --output <OUTPUT> --decrypt <ENCRYPTED-FILE>
