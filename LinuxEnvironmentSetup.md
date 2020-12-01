@@ -1,4 +1,15 @@
-# Mandatory Installs
+
+Index
+=====
+<!--ts-->
+   * [Mandatory installations](#mandatory-installs)
+   * [Bash Config](#bash-config)
+   * [Youtube-DL](#youtube-dl)
+<!--te-->
+
+
+Mandatory Installs
+==================
 1. Install OpenJDK
     * Java 8 - `sudo apt install openjdk-8-jdk`
     * Java 11 - `sudo apt install openjdk-11-jdk`
@@ -54,7 +65,8 @@
     * `sudo pip install pyperclip` 
 
 
-# Bash Config
+Bash Config
+===========
 ```bash
 # blinking cursor
 echo -ne '\e[3 q'
@@ -81,7 +93,8 @@ alias planner='flatpak run com.github.alainm23.planner'
 #end custom aliases
 ```
 
-# Youtube-DL
+Youtube-DL
+==========
 1. Install youtube-dl
     * [git repo](https://github.com/ytdl-org/youtube-dl)
 2. Install ffmpeg
