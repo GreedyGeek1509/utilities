@@ -5,6 +5,8 @@ Index
    * [Mandatory installations](#mandatory-installs)
    * [Bash Config](#bash-config)
    * [Youtube-DL](#youtube-dl)
+   * [Editor Fonts](#editor-fonts)
+   * [Sublime Preferences](#sublime-preferences)
 <!--te-->
 
 
@@ -99,3 +101,21 @@ Youtube-DL
     * [git repo](https://github.com/ytdl-org/youtube-dl)
 2. Install ffmpeg
     * `sudo apt install ffmpeg`
+
+
+Editor Fonts
+============
+1. Fira Code
+
+
+Sublime Preferences
+===================
+```json
+{
+	"font_face": "Fira Code",
+	"font_size": 22,
+	"font_options": [
+    	"gray_antialias"
+	], 
+}
+```
